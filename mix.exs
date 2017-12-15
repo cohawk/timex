@@ -39,7 +39,7 @@ defmodule Timex.Mixfile do
   def deps do
     [{:tzdata, "~> 0.1.8 or ~> 0.5"},
      {:combine, "~> 0.10"},
-     {:gettext, "~> 0.10"},
+     {:gettext, "0.13.1"},
      {:ex_doc, "~> 0.13", only: :dev},
      {:benchfella, "~> 0.3", only: :dev},
      {:dialyze, "~> 0.2", only: :dev},
